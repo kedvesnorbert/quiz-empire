@@ -22,11 +22,8 @@ import com.example.quizbirodalom.AlarmUtils
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 
-
 class MainActivity : AppCompatActivity() {
-
     var url = "https://31.5.236.7/"
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -57,7 +54,6 @@ class MainActivity : AppCompatActivity() {
                         nc.visibility = View.INVISIBLE
                     }
                 }
-
                 Thread.sleep(5000)
             }
         }).start()
@@ -102,8 +98,6 @@ class MainActivity : AppCompatActivity() {
             }
         })
 
-
-
         webView.getSettings().setMediaPlaybackRequiresUserGesture(false);
 
         webView.setInitialScale(1);
@@ -135,8 +129,6 @@ class MainActivity : AppCompatActivity() {
 
         webView.loadUrl(url)
     }
-
-
 
     fun downloadDialog(url:String,userAgent:String,contentDisposition:String,mimetype:String)
     {
@@ -182,24 +174,12 @@ class MainActivity : AppCompatActivity() {
         // NetworkCapabilities to check what type of
         // network has the internet connection
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-
-            // Returns a Network object corresponding to
-            // the currently active default data network.
             val network = connectivityManager.activeNetwork ?: return false
-
-            // Representation of the capabilities of an active network.
             val activeNetwork = connectivityManager.getNetworkCapabilities(network) ?: return false
 
             return when {
-                // Indicates this network uses a Wi-Fi transport,
-                // or WiFi has network connectivity
                 activeNetwork.hasTransport(NetworkCapabilities.TRANSPORT_WIFI) -> true
-
-                // Indicates this network uses a Cellular transport. or
-                // Cellular has network connectivity
                 activeNetwork.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR) -> true
-
-                // else return false
                 else -> false
             }
         } else {
@@ -211,15 +191,9 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-
-
-    // if you press Back button this code will work
     override fun onBackPressed() {
-        // if your webview can go back it will go back
         if (webView.canGoBack())
             webView.goBack()
-        // if your webview cannot go back
-        // it will exit the application
         else
             super.onBackPressed()
     }
