@@ -224,42 +224,5 @@ class MainActivity : AppCompatActivity() {
             super.onBackPressed()
     }
 
-
-    /*private fun createNotificationChannel()
-    {
-        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O){
-            val name = "Notification Title"
-            val descriptionText = "Notification Description"
-            val importance = NotificationManager.IMPORTANCE_DEFAULT
-            val channel = NotificationChannel(CHANNEL_ID, name, importance).apply {
-                description = descriptionText
-            }
-            val notificationManager:NotificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
-            notificationManager.createNotificationChannel(channel)
-        }
-    }*/
-
-    /*private fun sendNotification(){
-        val intent = Intent(this, MainActivity::class.java).apply {
-            flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
-        }
-        val pendingIntent: PendingIntent = PendingIntent.getActivity(this, 0, intent, 0)
-
-        val bitmap = BitmapFactory.decodeResource(applicationContext.resources, R.drawable.steamtwo)
-        val bitmapLargeIcon = BitmapFactory.decodeResource(applicationContext.resources, R.drawable.androidtwo)
-
-        val builder = NotificationCompat.Builder(this, CHANNEL_ID)
-            .setSmallIcon(R.drawable.ic_launcher_foreground)
-            .setContentTitle("QuizBirodalom - Napi belépés")
-            .setContentText("Lépj be ma is az oldalra, gyűjts pontokat és vegyél részt izgalmas kvízeinken!")
-            .setLargeIcon(bitmapLargeIcon)
-            .setStyle(NotificationCompat.BigPictureStyle().bigPicture(bitmap))
-            .setContentIntent(pendingIntent)
-            .setPriority(NotificationCompat.PRIORITY_DEFAULT)
-
-        with(NotificationManagerCompat.from(this)){
-            notify(notificationId, builder.build())
-        }
-    }*/
 }
 
