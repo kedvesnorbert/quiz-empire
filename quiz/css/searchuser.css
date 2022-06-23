@@ -1,0 +1,96 @@
+body {
+	background-image: url('../documents/images/usersearchbg.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#felhsearch_title_id {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+#felhsearch_div {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border-bottom: 1px solid black;
+	background-color: none;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+#search_input {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12pt;
+	height: 45px;
+	width: 300px;
+	margin-bottom: 15px;
+	outline: none;
+}
+
+#search_button {
+	height: 45px;
+	margin-bottom: 15px;
+	border: none;
+	text-align: left;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	outline: none;
+}
+
+#processing_image{
+	height:20pt;
+	margin-left:10px;
+	margin-bottom: 10px;
+}
+
+#error_div {
+	color: black;
+	font-size: 16px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: lightgray;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+#cim_p {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: italic;
+	margin-left: 30px;
+	font-size: 17px;
+}
+
+#users_list {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: 25px;
+	margin-right: 25px;
+	text-align: center;
+	width: 96%;
+	margin-top: 50px;
+}
+
+#users_list td{
+	height:70px;
+	text-align: center;
+	align-items: center;
+}
+
+table a:link {
+	color: black !important;
+	text-decoration: underline;
+}
+
+table a {
+	color: black !important;
+	text-decoration: underline;
+}

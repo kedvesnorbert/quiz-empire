@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+
+.badge {
+  position:absolute;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  margin-top:-5px;
+  margin-left:65px;
+}
+
+#mainmenu_a{
+  font-weight: bold;
+}

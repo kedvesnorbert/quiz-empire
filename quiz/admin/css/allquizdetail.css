@@ -1,0 +1,135 @@
+#error_div{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    color: red;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#submenu{
+    text-align:center;
+    width:100%;
+    margin-top:10pt;
+    margin-bottom:10pt;
+}
+
+.submenu_class{
+    background-color: #f3be0e;
+    border: none;
+	border-radius: 15px;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:10px;
+	margin-top:10px;
+    cursor: pointer;
+	outline: none;
+}
+
+#title_div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 15pt;
+    margin-bottom: 15pt;
+    width: 100%;
+
+}
+
+#quiz_title{
+    font-size: 22pt;
+    font-weight: bold;
+    margin-bottom: 5pt;
+}
+
+#quiz_lang_sender{
+    font-style: italic;
+    font-size: 16pt;
+    margin-top: 5pt;
+}
+
+#quizdata_container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#title_statistics{
+    text-align:center;
+    font-size:15pt;
+    margin-bottom:20pt;
+    font-weight: bold;
+}
+
+#quizdata_information{
+    display: inline-block;
+    width: 48%;
+    margin-top:15pt;
+    margin-bottom: 15pt;
+    padding-bottom:15pt;
+    background: #d1e4ccfb;
+}
+
+#quizdata_statistics{
+    display: inline-block;
+    width: 48%;
+    background: #e0dada;
+    margin-top:15pt;
+    margin-bottom: 15pt;
+    padding-bottom:15pt;
+}
+
+.quizdata_info{
+    font-weight: bold;
+    font-size:12pt;
+    margin-left:10pt;
+    padding-bottom:15pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.quizdata_data{
+    font-size:12pt;
+    margin-right:10pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#likes_title{
+	text-align:left;
+	font-size:18px;
+	margin-bottom:20px;
+	margin-left:20px;
+	margin-right:20px;
+	font-weight:bold;
+}
+
+#likes_text{
+	text-align:left;
+	font-size:18px;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+#likes_div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left:20pt;
+	min-height:100px;
+    background-color: rgb(208, 255, 0);
+    padding-top:5pt;
+    margin-top:20pt;
+    padding-bottom:10pt;
+    width:95%;
+}
+
+#likes_div a:link{
+	color:black;
+}
+
+#likes_div a:visited{
+	color:black;
+}

@@ -1,0 +1,515 @@
+body {
+	background-image: url('../documents/images/detailsbg.png');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#minimenu_nav{
+	color:black !important;
+	font-weight: bold;
+}
+
+#quiztitle{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+#quizdetailstable{
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+	width:88%;
+}
+
+.table>tbody>tr>td {
+	vertical-align: middle;
+}
+
+.detailstable_td_left1{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width:5%;
+	text-align:right;
+	font-weight: bold;
+}
+
+.detailstable_td_left2{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width:1%;
+	text-align:right;
+	font-weight: bold;
+}
+
+.detailstable_td_right1{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width:1%;
+	text-align:left;
+}
+
+.detailstable_td_right2{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width:5%;
+	text-align:left;
+}
+
+#startQuizFromDetails {
+	height: 60px;
+	width: 180px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	outline: none;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+.star_rated {
+	color: #986a2e;
+	font-size: 40px;
+	cursor: pointer;
+}
+
+.star {
+	text-shadow: 0 0 1px #F48F0A;
+	cursor: pointer;
+	font-size: 40px;
+	text-align: center;
+}
+
+.star_rated_ {
+	color: gold;
+	font-size: 40px;
+}
+
+.star_ {
+	text-shadow: 0 0 1px #F48F0A;
+	font-size: 40px;
+	text-align: center;
+}
+
+/*quiz likes*/
+
+#container_likes{
+	margin-top:15px;
+	margin-bottom: 15px;
+	padding-top:15px;
+	padding-bottom: 15px;
+	width:87%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: left;
+	background-color: lightgreen;
+}
+
+#no_likes_text {
+	text-align: center;
+	font-style: italic;
+	padding-top: 40px;
+	font-size: 17px;
+}
+
+#likes_title {
+	text-align: left;
+	font-size: 18px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-weight: bold;
+}
+
+#likes_div {
+	text-align: left;
+	font-size: 17px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 20px;
+}
+
+#like_btndiv{
+	margin-bottom: 10px;
+}
+
+#like_button {
+	font-size: 16px;
+	border: none;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+#likes_div {
+	min-height: 150px;
+}
+
+#likes_div a:link {
+	color: black;
+}
+
+#likes_div a:visited {
+	color: black;
+}
+
+/*Comments*/
+
+#comment_title {
+	text-align: left;
+	font-size: 18px;
+	margin-top:15px;
+	margin-bottom: 15px;
+	padding-top:15px;
+	padding-bottom: 15px;
+	margin-left: 20px;
+	font-weight: bold;
+}
+
+#comment_div {
+	background-color: lightgreen;
+	min-height: 180px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	width: 87%;
+}
+
+textarea {
+	resize: none !important;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#textarea_input {
+	width: 80%;
+	height: 150px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+}
+
+#send_comment {
+	border: none;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+#comment_not_allowed {
+	font-size: 17px;
+	text-align: center;
+	font-style: italic;
+}
+
+/*comment section*/
+#censoreimg {
+	width: 6%;
+}
+
+#commentsection_title {
+	width:87%;
+	text-align: left;
+	font-size: 18px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+#one_commentdiv {
+	min-height: 150px;
+	margin-top: 25px;
+	margin-bottom: 35px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: lightgreen;
+	width:87%;
+}
+
+#first_one_commentdiv{
+	width:100%;
+}
+
+#one_comment_username {
+	font-size: 17px;
+	text-align: left;
+	padding-left: 25px;
+	padding-top: 20px;
+}
+
+#one_comment_date {
+	font-size: 16px;
+	text-align: right;
+	font-style: italic;
+	padding-right: 25px;
+	padding-top: 20px;
+}
+
+#one_comment_fulltext {
+	font-size: 18px;
+	text-align: left;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#one_comment_moderation {
+	font-size: 16px;
+	text-align: right;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-style: italic;
+}
+
+#one_comment_settings {
+	font-size: 16px;
+	text-align: right;
+	padding-right: 25px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+
+#loading_comments_show {
+	font-size: 12px;
+}
+
+#no_comment_text_ {
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 17px;
+}
+
+/*Ranglists*/
+.ranglist_hr{
+	border-top: 1px solid black;
+	width:87%;
+}
+
+#ranglist_table {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 70%;
+	padding-bottom:50px;
+	margin-bottom: 50px;
+}
+
+#ranglist_table a{
+	color:black;
+}
+
+#show_quizrating_title {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+#ranglist_table_header {
+	text-align: center;
+	height: 50px;
+	font-weight: bold;
+	background-color: lightgreen;
+}
+
+#ranglist_table_rows {
+	height: 35px;
+}
+
+#ranglist_table_notfound {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+	font-style: italic;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 70%;
+	padding-bottom:50px;
+}
+
+#ranglist_table td{
+	vertical-align: middle !important;
+}
+
+#pdf_button {
+	width: 100%;
+	background-color: Transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+/*new background*/
+#bgimage {
+	width: 60%;
+	height: 35pt;
+	text-align: center;
+}
+
+#bgnotes_title {
+	text-align: left;
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#bgnotes {
+	text-align: left;
+	color: red;
+	font-size: 15px;
+	font-style: italic;
+}
+
+/*background image list*/
+#bgimage_table{
+	width:75%;
+	margin-bottom:30px;
+}
+
+#bgimage_table a:link{
+	color: black !important;;
+}
+
+#bgimage_table a:visited {
+	color: black !important;
+	;
+}
+
+#no_bgimage_span{
+	padding-top:10px;
+	padding-bottom:20px;
+	font-size: 17px;
+	font-style: italic;
+}
+
+.bgimagelist_hr{
+	border-top: 1px solid black;
+	width:87%;
+}
+
+#active_span {
+	font-weight: bold;
+	color: rgb(17, 153, 17);
+}
+
+#inactive_span {
+	font-style: italic;
+	color: red;
+}
+
+#delete_mybgimg {
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 17px;
+	cursor: pointer;
+	outline: none;
+}
+
+/*update quiz*/
+#updatequiz_hr{
+	border-top: 1px solid black;
+	width:87%;
+}
+
+#updatequiz_err_span {
+	text-align: center;
+	font-weight: bold;
+	color: rgb(236, 22, 22);
+	font-size: 16px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#update_myquiz_title {
+	text-align: center;
+	margin-bottom: 35px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.mylabelnames {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.valid-feedback, .invalid-feedback{
+	font-weight: bold;
+	margin-bottom:15px;
+}
+
+#kvizelerhetoseg, #numofplaying, #kerdfogadas, #verifycurrent, #pwtcurrent, #mypasscurrent{
+	font-size:11pt;
+	height:40px;
+	width:600px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#elerh{
+	display:none;
+}
+
+#elerheto_select{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:11pt;
+	height:100px;
+	width:100%;
+	text-align:center;
+}
+
+#select_friendsText{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:11pt;
+}
+
+#jelszavas{
+	display:none;
+}
+
+#pwtext1, #pwtext2{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:11pt;
+}
+
+#pwt1, #pwt2{
+	width:250px;
+	height:30px;
+}
+
+#fogadkerd {
+	display: none;
+}
+
+#fogad_select {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12pt;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+
+#startd, #endd{
+	font-size:11pt;
+	height:40px;
+	width:300px;
+}
+
+#quizelerh_msg, #quizpwnew_msg, #quizkerdbekuld_msg{
+	color: #DC3545;
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+/*quiz not found*/
+#errNotFound{
+	margin-top:50px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:17px;
+	color: #DC3545;
+}

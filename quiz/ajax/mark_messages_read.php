@@ -1,0 +1,50 @@
+<?php
+session_start();
+
+require_once("../db/db_connect.php");
+require_once("sessiontimeout.php");
+require_once("../includes/responses.php");
+
+if(!isset($_SESSION['user']))
+{
+    $_SESSION = array();
+	session_destroy();
+	header("location: ../login.php"); 
+}
+else
+{
+
+if (isset($_SERVER['HTTP_X_REQUESTED_WITH']) && ($_SERVER['HTTP_X_REQUESTED_WITH'] == 'XMLHttpRequest')) 
+{
+	if(!isset($_POST['message_id']) || !preg_match("/^[0-9]+$/", $_POST['message_id']) || $_POST['message_id'] < 0 ||
+	!isset($_POST['message_db']) || !preg_match("/^[0-9]+$/", $_POST['message_db']) || $_POST['message_db'] < 0)
+	{
+		echo json_encode(array("resp"=>err_missing_data()));
+	}
+	elseif(logoff_ajax()==-1)
+	{
+		echo json_encode(array("resp"=>err_session_timeout()));
+	}
+	else
+	{
+		$con = connect();
+		if(!$con)
+		{
+			die(mysqli_connect_error());
+		}
+		mysqli_query($con, "SET @p_response");
+		mysqli_query($con, "CALL mark_message_read('" . mysqli_real_escape_string($con, $_POST['message_id']) . "', '" . mysqli_real_escape_string($con, $_POST['message_db']) . "', '" . mysqli_real_escape_string($con, $_SESSION['user']) . "', @p_response)");
+		$q = "SELECT @p_response AS p_response";
+		$res = mysqli_query($con, $q);
+		$row = mysqli_fetch_assoc($res);
+		$kiir = $row['p_response'];
+		mysqli_close($con);	
+		echo json_encode(array("resp"=>"$kiir"));
+	}
+}
+else
+{
+	require_once("../error.php");
+}
+}
+?>

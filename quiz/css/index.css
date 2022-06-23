@@ -1,0 +1,321 @@
+@charset "utf-8";
+
+body{
+	background-image:url('../documents/images/indexbg.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+
+#submit_game{
+    border: none;
+    color: white;
+	width:100%;
+	height:40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+	outline:none;
+}
+
+.compbtn
+{
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	float:right;
+	font-size: 16px;
+	margin: 4px 2px;
+	margin-right:15px;
+	cursor: pointer;
+	outline:none;
+}
+
+#loading_compdatadiv{
+	text-align:center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:black;
+	font-size:15px;
+}
+
+#competitionDetails{
+	color:black;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:center;
+}
+
+#ol_importantdata{
+	text-align:left;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:15px;
+}
+
+#cim2{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:17px;
+	color:black;
+}
+
+#cim3{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:17px;
+	color:black;
+}
+
+#rewardTable{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	width:90%;
+	text-align: center;
+}
+
+#header_rewardtable{
+	background-color:#b30000;
+	color:white;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	font-size:15px;
+	height:30px;
+	text-align:center;
+}
+
+#szazalek, #pontok, #jovalaszok{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:black;
+	font-size:17px;
+}
+
+#d_selectgametype_table{
+	width:100%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#d_selectgametype_table_col1{
+	font-size:15px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+#note_p_selectgame{
+	color:red;
+	font-style:italic;
+	font-size:15px;
+}
+
+#warning_startquiz_id{
+	font-size:15px;
+	color:red;
+}
+
+#show_nextlevel{
+	background-color:transparent;
+	border:none;
+	outline:none;
+	font-size:16px;
+	font-weight:bold;
+	text-decoration: underline;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#current_level{
+	text-align:left;
+}
+
+#next_level_required{
+	text-align:left;
+}
+
+#previuos_level{
+	text-align:left;
+}
+
+#w_span{
+	margin-left:15px;
+	font-family:verdana;
+	color:red;
+}
+
+#p_span{
+	margin-left:15px;
+	font-family:verdana;
+	color:blue;
+}
+
+#importantData_table{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#display_comp_container{
+	background-color:#F6EFDD;
+	width:75%;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-top:30px;
+}
+
+#kiemeltkviz_p{
+	text-align:left;
+	margin-left:20px;
+	font-weight:bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:18px;
+}
+
+#news_container{
+	width:75%;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#newsheader{
+	background-color:#F6EFDD;
+	height:50px;
+}
+
+#newstitle{
+	float:left;
+	font-size:18px;
+	font-weight:bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left:20px;
+	margin-top:15px;
+}
+
+#create_new_news{
+	float:right;
+	margin-right:20px;
+	margin-top:5px;
+}
+
+#one_news_div{
+	overflow-wrap: break-word;
+	background-color:#F6EFDD;
+	margin-top:10px;
+	margin-bottom:30px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:16px;
+}
+
+#one_news_div_table{
+	width:100%;
+	border-spacing:0px;
+	table-layout: fixed;
+}
+
+#publisher_name{
+	text-align:left;
+	font-size:18px;
+	margin-left:20px;
+	margin-top:20px;
+}
+
+#description_row{
+	text-align:left;
+	font-size:18px;
+	margin-left:20px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#news_title{
+	font-family:verdana;
+	font-weight:bold;
+	text-align:center;
+	margin-top:15px;
+	margin-bottom:15px;
+	font-size:25px;
+}
+
+#delmy_news{
+	margin-right:20px;
+	margin-top:20px;
+	border-radius: 15px;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+	float:right;
+	outline: none;
+}
+
+#the_newstitle{
+	width:95%;
+	height:40px;
+}
+
+#the_newsdescription{
+	width:95%;
+	height:170px;
+	resize:none;
+	margin-bottom:20px;
+}
+
+#d_requiredspan{
+	font-weight:bold;
+	color:red;
+	font-size:18px;
+	margin-left:5px;
+	margin-bottom:10px;
+}
+
+#d_notrequiredspan{
+	font-style:italic;
+	color:darkgray;
+	font-size:14px;
+	margin-left:5px;
+	margin-bottom:10px;
+}
+
+#d_note_img{
+	font-style:italic;
+	font-weight:bold;
+	color:red;
+	font-size:14px;
+	margin-top:20px;
+	padding-top:10px;
+	margin-bottom:10px;
+}
+
+#comp_table{
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+
+#comp_timetd{
+	width:50%;
+	font-weight:bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:red;
+}
+
+#comp_ranglist_tbl{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12pt;
+	width:100%;
+	margin-top:15pt;
+	margin-bottom:5pt;
+	text-align: center;
+}
+
+#comp_ranglist_tbl tr{
+	height:50px;
+}
+
+#list404{
+	margin-top:30pt;
+	text-align: center;
+}
+
+#comp_r_note{
+	margin-top:18pt;
+	color:red;
+	text-align: center;
+}

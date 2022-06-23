@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+/* CSS Dokumentum */
+
+body {
+	/*background-image: url('../documents/images/table-bg.png');*/
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+table a:link {
+	color: black !important;
+}
+
+table a {
+	color: black !important;
+}
+
+iframe{
+	display: none;
+}
+
+#nameOfReq {
+	margin-top: 10pt;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:12pt;
+	height:40px;
+	width:300px;
+}
+
+#whereSearchReq {
+	margin-top: 10pt;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:12pt;
+	height:40px;
+	width:200px;
+}
+
+#startSearchReq {
+	margin-top: 10pt;
+	font-size:13pt;
+	height:40px;
+	width:100px;
+}
+
+#tableId {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width:95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#tableId tr{
+	height:65px;
+}
+
+#fejlec {
+	text-align: center;
+}
+
+#detail {
+	display:none;
+}
+
+.myInlineDiv{
+	background-color:none;
+	margin-top:10px;
+	font-size:12pt;
+}
+
+.myOffer{
+	font-size:11pt;
+	height:35px;
+	width:130px;
+}
+
+#other_quizinfo {
+	margin-left: 40px;
+	margin-right: 40px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12pt;
+}
+
+#offerPoints{
+	font-size: 11pt;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+	margin-right:5pt;
+}
+
+#delreqreason{
+	font-size:10pt;
+	height:30px;
+	width:350px;
+}
+
+#delmyreq{
+	font-size: 11pt;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	margin-right:5pt;
+}
+
+#blackspan{
+	padding-left:20px;
+	font-weight: bold;
+	color: black;
+}
+
+#greenspan {
+	padding-left: 5px;
+	font-weight: bold;
+	color: green;
+}
+
+#redspan {
+	padding-left: 5px;
+	font-weight: bold;
+	color: red;
+}
+
+#tableNotFound{
+	width:95%;
+	font-size:18px;
+	color:black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#questions_table{
+	width:100%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#title_div{
+	font-size:25px;
+	font-weight:bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#header_qtable{
+	min-height:35px;
+	height:35px;
+	font-weight:bold;
+	text-align:center;
+	background-color: lightgray;
+}

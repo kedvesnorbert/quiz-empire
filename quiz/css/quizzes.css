@@ -1,0 +1,198 @@
+@charset "utf-8";
+body {
+	background-image: url('../documents/images/detailsbg.png');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+table a:link {
+	color: black !important;
+}
+
+table a {
+	color: black !important;
+}
+
+iframe{
+	display:none;
+}
+
+#tablQuiz{
+	background-color:lightgrey;
+	margin-top:20px;
+	width:95%;
+	padding-top:25px;
+	padding-bottom:25px;
+}
+
+#nameOfQuiz{
+	font-size:12pt;
+	height:40px;
+	width:270px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#whereSearchQuiz, #langOfQuiz {
+	font-size:12pt;
+	height:40px;
+	width:175px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#startSearchQuiz {
+	font-size:12pt;
+	height:40px;
+	width:90px;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: none;
+	color:white;
+    cursor: pointer;
+}
+
+#tableKvizId{
+	width:97%;
+	margin-top:30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fejlecQ {
+	text-align: center;
+}
+
+#startQuiz{
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#tableNotFound{
+	width:95%;
+	font-size:18px;
+	color:black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.addToFavorites, #goToQuizPage{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: green;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin-top:10px;
+	margin-right:10px;
+	margin-bottom:20px;
+    cursor: pointer;
+}
+
+.removeFromFavorites{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #b30000;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin-top:10px;
+	margin-bottom:20px;
+    cursor: pointer;
+}
+
+#is_more_possibility{
+	font-weight: bold;
+	color:blue;
+}
+
+#no_more_possibility{
+	font-weight: bold;
+	color:red;
+}
+
+#passwordField{
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:25px;
+	padding-top:25px;
+	background-color:#A52A2A;
+	font-family:verdana;
+	text-align:center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#other_quizinfo{
+	margin-left:40px;
+	margin-right:40px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12pt;
+}
+
+#passwText{
+	font-size:16px;
+	padding-top:1%;
+	color:white;
+}
+
+#passwordInput{
+	font-size:12pt;
+	height:40px;
+	width:250px;
+	font-family:verdana;
+}
+
+#submitpw{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 0px;
+    cursor: pointer;
+}
+
+#megse{
+	background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 0px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,257 @@
+@charset "utf-8";
+
+body{
+	background-image:url('../documents/images/quiz.jpg');
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.butn{
+	background-color: #ffffff; 
+	margin: 4px 2px; 
+	opacity: 1; 
+	transition: 0.1s; 
+	display: inline-block; 
+	text-decoration: none; 
+	color: black; 
+	font-size: 20px; 
+	padding: 20px 10px; 
+	border-radius: 12px; 
+	width: 100%; 
+	text-align: center; 
+	cursor: pointer;
+	outline:none;
+}
+.butt{
+	background-color: #FFFACD; 
+	color: black; 
+	font-size: 22px; 
+	padding: 20px 10px; 
+	width: 100%; 
+	text-align: center;
+	border: none;
+	outline:none;
+}
+
+.butn:disabled{
+	background-color: #FFFFFF; 
+	margin: 4px 2px; 
+	opacity: 1; 
+	transition: 0.1s; 
+	display: inline-block; 
+	text-decoration: none; 
+	color: black; 
+	font-size: 20px; 
+	padding: 20px 10px; 
+	border-radius: 12px; 
+	width: 100%; 
+	text-align: center; 
+	border: 1;
+}
+
+.butn:hover {
+	background-color: #e6e6e6;
+	margin: 4px 2px;
+	opacity: 1;
+	transition: 0.1s;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	padding: 20px 20px;
+	border-radius: 12px;
+	width: 100%;
+	text-align: center;
+	border: 1;
+}
+
+#bt1:focus {
+	background-color:#0066ff;
+}
+
+#bt2:focus {
+	background-color:#0066ff;
+}
+
+#bt3:focus {
+	background-color:#0066ff;
+}
+
+#bt4:focus {
+	background-color:#0066ff;
+}
+
+#jatekTable{
+	width:65%;
+	background-color:white;
+	font-family:verdana;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#quizTableCount {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12pt;
+	border-spacing: 20px;
+	background-color: white;
+	border: none;
+	width: 100%;
+}
+
+#cimJatekTable{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	text-align:center;
+	font-weight:bold;
+	font-size:24px;
+	height:75px;
+}
+
+#totalcorrJatekTable{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	text-align:center;
+	font-weight:bold;
+	font-size:24px;
+	color:black;
+	height:75px;
+}
+
+#meritPoints, #bonusPoints{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	text-align:left;
+	font-weight:bold;
+	font-size:17px;
+	color:green;
+}
+
+#totalPoints{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	text-align:left;
+	font-weight:bold;
+	font-size:17px;
+	color:red;
+}
+
+#quizTable{
+	width:100%;
+	background-color:lightgray;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-left:15px;
+	margin-right:15px;
+}
+
+#asd{
+	width:85%;
+	background-color:lightgray;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+@media not screen and (max-height: 500px) {
+	#asd {
+		width: 75%;
+		background-color: lightgray;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+	}
+
+	#jatekTable {
+		width: 45%;
+		background-color: white;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+	}
+}
+
+#questiondiv{
+	float:left;
+	width:85%;
+	margin-right:10px;
+}
+
+#helperdiv{
+	margin-left:15px;
+	margin-top:20px;
+	float:left;
+	height:110px;
+	width:10%;
+	position:relative; 
+}
+
+#negyedelo, #felezo, #teljes {
+	background-color: green; 
+	opacity: 1; 
+	transition: 0.1s; 
+	display: inline-block; 
+	text-decoration: none; 
+	color: white; 
+	font-size: 14px; 
+	width:80%;
+	height:50px;
+	border-radius:15px;
+	text-align: center; 
+	border: 0;
+	margin-left:10px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+#negyedelo-,  #felezo-, #teljes-{
+	background-color: lightred; 
+	opacity: 1; 
+	transition: 0.1s; 
+	display: inline-block; 
+	text-decoration: none; 
+	color: black; 
+	font-size: 12px; 
+	font-style:italic;
+	width:80%;
+	height:50px;
+	border-radius:15px;
+	text-align: center; 
+	border: 0;
+	margin-left:10px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+#gyakorloUzenet{
+	font-family:verdana;
+	text-align:center;
+	font-size:17px;
+	height:200px;
+	padding-top:50px;
+}

@@ -1,0 +1,125 @@
+#p_title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+#tablusers{
+    background-color:lightgrey;
+	margin-top:20px;
+	width:95%;
+	padding-top:25px;
+	padding-bottom:25px;
+}
+
+#p_description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 18px;
+    margin:10px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#td_input{
+    font-family:Verdana;
+	font-size:11pt;
+	height:45px;
+	width:270px;
+    margin-bottom:15px;
+	border-radius:5px;
+	outline:none;
+}
+
+
+#td_selectwhere{
+    font-family:Verdana;
+    font-size:11pt;
+    height:40px;
+    width:188px;
+    margin-bottom:15px;
+	border-radius:5px;
+	outline:none;
+}
+
+#td_selectorder{
+    font-family:Verdana;
+    font-size:11pt;
+    height:40px;
+    width:188px;
+    margin-bottom:15px;
+	border-radius:5px;
+	outline:none;
+}
+
+#submitbtn_search{
+    font-size:11pt;
+    height:45px;
+    width:100px;
+    font-family:Verdana;
+    margin-bottom:15px;
+	border-radius:5px;
+    outline:none;
+}
+
+#current_page_num{
+    text-align: center;
+    font-size: 13pt;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+#div_pagination{
+    text-align: center;
+    font-size: 18pt;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-top: 25pt;
+    margin-bottom: 30pt;
+}
+
+#userlist_table{
+    width:90%;
+    background-color: lightgray;
+    
+}
+
+#table_head{
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    height: 40pt;
+}
+
+#rows_table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    height: 50pt;
+}
+
+#notfound_row{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    height: 50pt;
+    text-align: center;
+}
+
+#questions_table{
+	width:100%;
+	
+
+}
+
+#title_div{
+	font-size:25px;
+	font-weight:bold;
+}
+
+#header_qtable{
+	min-height:20px;
+	height:20px;
+	font-weight:bold;
+	text-align:center;
+	background-color: lightgray;
+}

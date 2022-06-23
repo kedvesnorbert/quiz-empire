@@ -1,0 +1,341 @@
+#p_title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+#tablquizzes{
+    background-color:lightgrey;
+	margin-top:20px;
+	width:95%;
+	padding-top:25px;
+	padding-bottom:25px;
+}
+
+#p_description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 18px;
+    margin:10px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#td_input{
+    font-family:Verdana;
+	font-size:11pt;
+	height:45px;
+	width:200px;
+    margin-bottom:15px;
+	border-radius:5px;
+	outline:none;
+}
+
+
+#td_selectwhere{
+    font-family:Verdana;
+    font-size:11pt;
+    height:40px;
+    width:148px;
+    margin-bottom:15px;
+	border-radius:5px;
+	outline:none;
+}
+
+#td_selectorder{
+    font-family:Verdana;
+    font-size:11pt;
+    height:40px;
+    width:148px;
+    margin-bottom:15px;
+	border-radius:5px;
+	outline:none;
+}
+
+#td_selecttype{
+    font-family:Verdana;
+    font-size:11pt;
+    height:40px;
+    width:148px;
+    margin-bottom:15px;
+	border-radius:5px;
+	outline:none;
+}
+
+#submitbtn_search{
+    font-size:11pt;
+    height:45px;
+    width:100px;
+    font-family:Verdana;
+    margin-bottom:15px;
+	border-radius:5px;
+    outline:none;
+}
+
+#current_page_num{
+    text-align: center;
+    font-size: 13pt;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+#div_pagination{
+    text-align: center;
+    font-size: 18pt;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-top: 25pt;
+    margin-bottom: 30pt;
+}
+
+#allquizlist_table{
+    width:90%;
+    background-color: lightgray;
+    
+}
+
+#table_head{
+    background-color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    height: 40pt;
+}
+
+#rows_table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    height: 50pt;
+}
+
+.toggle_td_class{
+    padding-left: 15pt;
+    padding-right: 15pt;
+}
+
+.toggle_det_subtitle{
+    padding-left: 15pt;
+    padding-right: 15pt;
+}
+
+.toggle_det_title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-left: 35pt;
+
+}
+
+.toggle_det_data{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 35pt;
+}
+
+#notfound_alert{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13pt;
+    text-align: center;
+    margin-top: 20pt;
+    font-style: italic;
+}
+
+#title_searchquiz{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18pt;
+    text-align: center;
+    margin-top: 20pt;
+    font-weight: bold;
+}
+
+#confirm_newquiz, #confirm_request
+{
+    background-color: #00cc00;
+    border: none;
+	border-radius: 15px;
+    color: white;
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:10px;
+	margin-top:10px;
+    cursor: pointer;
+	outline: none;
+}
+	
+#reject_newquiz, #reject_request
+{
+    background-color: red;
+    border: none;
+	border-radius: 15px;
+    color: white;
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:10px;
+	margin-top:10px;
+    cursor: pointer;
+	outline: none;
+}
+
+#confirmnewquiz_title, #acceptnewquiz_title, #confirmrequest_title, #failedrequestfulfillment_title, #acceptrequest_title{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+}
+
+#confirmnewquiz_notes, #acceptnewquiz_notes, #confirmrequest_notes, #acceptrequest_notes{
+    text-align: left;
+    margin-bottom: 10pt;
+    color:red;
+}
+
+#rejectquiz_title, #rejectrequest_title{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+}
+
+#rejectquiz_text, #rejectrequest_text{
+    height:30pt;
+    width:85%;
+    text-align: center;
+    margin-bottom: 20pt;
+    margin-top: 20pt;
+    font-size: 12pt;
+}
+
+.dq_reasons{
+    margin-left:5pt;
+    margin-right:5pt;
+    margin-top: 10pt;
+    margin-bottom:5pt;
+}
+
+#accept_newquiz, #accept_request
+{
+    background-color: #4CAF50;
+    border: none;
+	border-radius: 15px;
+    color: white;
+    padding: 11px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:10px;
+	margin-top:10px;
+    cursor: pointer;
+	outline: none;
+}
+
+#failed_request_fulfillment
+{
+    background-color: #b30000;
+    border: none;
+	border-radius: 15px;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:10px;
+	margin-top:10px;
+    cursor: pointer;
+	outline: none;
+}
+
+#renew_accomplish_deadline{
+    margin-left: 15pt;
+    width: 30%;
+    height: 30pt;
+    font-size: 12pt;
+}
+
+#goToQuizPage{
+    background-color: #37a017;
+    border: none;
+	border-radius: 15px;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:10px;
+	margin-top:10px;
+    cursor: pointer;
+	outline: none;
+}
+
+#goToDeletedQuizPage{
+    background-color: #f5390a;
+    border: none;
+	border-radius: 15px;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:10px;
+	margin-top:10px;
+    cursor: pointer;
+	outline: none;
+}
+
+.enableQuiz{
+	background-color: green;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin-top:10px;
+	margin-left:10px;
+    cursor: pointer;
+}
+
+.deleteQuiz{
+	background-color: #b30000;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin-top:10px;
+	margin-left:10px;
+    cursor: pointer;
+}
+
+.activequestionlist{
+    background-color: #e9a411;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin-top:10px;
+	margin-left:10px;
+    cursor: pointer;
+}
+
+#enablequizreason_text, #deletequizreason_text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    margin-top: 15pt;
+    text-align: center;
+    height: 30pt;
+    width: 75%;
+}

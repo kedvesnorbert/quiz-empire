@@ -1,0 +1,481 @@
+#p_title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+#tablquestions{
+    background-color:lightgrey;
+	margin-top:20px;
+	width:95%;
+	padding-top:25px;
+	padding-bottom:25px;
+}
+
+#table_head{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(223, 56, 14);
+    font-size: 12pt;
+    color: white;
+    height: 60px;
+}
+
+#p_description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 16px;
+    margin:10px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.search_class{
+    font-family:Verdana;
+    font-size:11pt;
+    height:40px;
+    width:100%;
+    margin-bottom:15px;
+	border-radius:5px;
+	outline:none;
+}
+
+#quizcategory, #username_to_search, #td_selectwhere, #td_selectorder, #td_selectdirection, #submitbtn_search{
+    width:100%;
+}
+
+#submitbtn_search{
+    font-size:11pt;
+    height:45px;
+    font-family:Verdana;
+    margin-bottom:15px;
+	border-radius:5px;
+    outline:none;
+    background-color: rgb(11, 194, 11);
+}
+
+#current_page_num{
+    text-align: center;
+    font-size: 13pt;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+#div_pagination{
+    text-align: center;
+    font-size: 18pt;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-top: 25pt;
+    margin-bottom: 30pt;
+}
+
+#tabl_questions{
+    width:95%;
+    font-size: 12pt;
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#notfound_alert{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: black;
+    font-size:14pt;
+    text-align: center;
+    font-style: italic;
+}
+
+#details_q_tr{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:15pt;
+    margin-right: 15pt;
+    margin-bottom: 10pt;
+}
+
+#detailsq_tr_other{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:30pt;
+    margin-right: 15pt;
+    margin-bottom: 10pt;
+}
+
+.toggle_det_data{
+    font-style: italic;
+}
+
+.toggle_det_title{
+    font-weight: bold;
+}
+
+.info_title_span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13pt;
+}
+
+.questiondatashow{
+    background-color: rgb(226, 181, 33);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+	border-radius: 15px;
+    color: white;
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom:10px;
+    margin-top:10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.acceptQuestion{
+    background-color: #4CAF50;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+	border-radius: 15px;
+    color: white;
+    padding: 12px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom:10px;
+    margin-top:10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.sendBackForUpdate{
+    background-color: #FFA500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+	border-radius: 15px;
+    color: white;
+    padding: 12px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom:10px;
+    margin-top:10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.rejectQuestion{
+    background-color: #FF0000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+	border-radius: 15px;
+    color: white;
+    padding: 12px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom:10px;
+    margin-top:10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.activateQuestion{
+    background-color: #0dcf0d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+	border-radius: 15px;
+    color: white;
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom:10px;
+    margin-top:10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.inactivateQuestion{
+    background-color: #ce350f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+	border-radius: 15px;
+    color: white;
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom:10px;
+    margin-top:10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.deleteQuestion{
+    background-color: #ce350f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+	border-radius: 15px;
+    color: white;
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom:10px;
+    margin-top:10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.updateQuestion{
+    background-color: #ce350f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+	border-radius: 15px;
+    color: white;
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom:10px;
+    margin-top:10px;
+    cursor: pointer;
+    outline: none;
+}
+
+#d_qd_header{
+    margin-top: 10px;
+    margin-bottom:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+}
+
+#dspans_title{
+    font-weight: bold;
+}
+
+#questioncomments_table{
+    width:100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#header_qtable{
+    background-color: lightcyan;
+}
+
+#title_div{
+    font-weight: bold;
+}
+
+#q_words_ta{
+    resize: none;
+    font-size:12pt;
+    width:100%;
+    height:50px;
+    margin-top:10pt;
+    margin-bottom:10pt;
+}
+
+#q_search_btns{
+    width:100%;
+}
+
+.search_wbtns{
+    margin-left:5px;
+    margin-right: 5px;
+    margin-top:5pt;
+    margin-bottom: 5pt;
+}
+
+#loading_similiarquestions_div{
+    width:100%;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#questionscontent_div{
+    width:100%;
+    text-align: left;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#acceptquestion_title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    margin-top: 10pt;
+    margin-bottom: 15pt;
+    text-align: center;
+}
+
+#accept_statement{
+    margin-top:10pt;
+    height: 30px;
+    width: 30px;
+}
+
+#sendbackquestion_title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    margin-top: 10pt;
+    margin-bottom: 15pt;
+    text-align: center;
+}
+
+#d_settings_title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11pt;
+    margin-bottom: 15pt;
+    text-align: left;
+}
+
+#select_moderator_reason{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:100%;
+    height: 45px;
+}
+
+#moderator_reasontextarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    resize: none;
+    width:100%;
+    height:75px;
+    margin-top:10pt;
+    margin-bottom: 5pt;
+}
+
+#rejectquestion_title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    margin-top: 10pt;
+    margin-bottom: 15pt;
+    text-align: center;
+}
+
+#select_moderator_deletereason{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:100%;
+    height: 45px;
+}
+
+#moderator_delreasontextarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    resize: none;
+    width:100%;
+    height:75px;
+    margin-top:10pt;
+    margin-bottom: 5pt;
+}
+
+#minusp_title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+}
+
+#minuspoints{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    height:45px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#inactivatequestion_title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    margin-top: 10pt;
+    margin-bottom: 5pt;
+    text-align: center;
+}
+
+#note_inactivateq{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11pt;
+    margin-bottom: 15pt;
+    text-align: left;
+    font-style: italic;
+}
+
+#updatequestion_maindiv{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:10pt;
+    margin-bottom: 10pt;
+}
+
+#select_thema_forupdate{
+    width:100%;
+    height:45px;
+    font-size:12pt;
+    margin-top: 5pt;
+    margin-bottom:10pt;
+}
+
+#select_diff_forupdate{
+    width:100%;
+    height:45px;
+    font-size:12pt;
+    margin-top: 5pt;
+    margin-bottom:10pt;
+}
+
+#select_questiontext_forupdate{
+    width:100%;
+    height:45px;
+    font-size:12pt;
+    margin-top: 5pt;
+    margin-bottom:10pt;
+}
+
+.questiondata_span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 11pt;
+    text-align:left;
+}
+
+#select_ans1_forupdate, #select_ans2_forupdate, #select_ans3_forupdate, #select_ans4_forupdate{
+    width:100%;
+    height:45px;
+    font-size:12pt;
+    margin-top: 5pt;
+    margin-bottom:10pt;
+}
+
+#select_makeunverified{
+    width:25pt;
+    height:25pt;
+    margin-right: 10pt;
+}
+
+#deletequestion_title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    margin-top: 10pt;
+    margin-bottom: 5pt;
+    text-align: center;
+}
+
+#note_delq{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11pt;
+    margin-top: 10pt;
+    margin-bottom: 15pt;
+    text-align: left;
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}

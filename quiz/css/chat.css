@@ -1,0 +1,349 @@
+@charset "utf-8";
+
+#container_msgdiv{
+	position:absolute;
+	width:100%;
+	background-color:#33cc33;
+	font-family:verdana;
+}
+
+#first_msgdiv{
+	float:left;
+	width:28%;
+	background-color:white;
+	overflow-y: scroll; 
+	height: 100vh;
+	margin-left:10px;
+	margin-right:1px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#second_msgdiv{
+	float:left;
+	width:40%;
+	background-color:white;
+	overflow-y: scroll; 
+	height: 100vh;
+	margin-left:1px;
+	margin-right:1px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#third_msgdiv{
+	float:left;
+	width:30%;
+	background-color:white;
+	overflow-y: scroll; 
+	height: 100vh;
+	margin-left:1px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#msginput_table{
+	width:98%;
+}
+
+#msg_text{
+	width:100%;
+	height:50px;
+	font-size:16px;
+	resize:none;
+	border-color:lightgray;
+	border-radius:14px;
+	border-width:2px;
+	outline:none;
+}
+
+#firstdiv_veryfirst{
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#firstdiv_first{
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+#firstdiv_title{
+	font-size:18px;
+	margin-left: 10px;
+}
+
+.groupname{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-top:15px;
+	margin-left:15px;
+	margin-bottom:15px;
+	width:90%;
+	height:50px;
+	background-color: lightgray;
+	font-size:15px;
+	border:none;
+}
+
+#my_groupsdiv{
+	margin-left:10px;
+	margin-right: 10px;
+}
+
+#create_newgroup{
+   	border: none;
+	padding: 8px 13px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin-left:10px;
+    cursor: pointer;
+	outline: none;
+}
+
+#table_listmsgs{
+	width:70%;
+	margin-left:15px;
+	margin-right:15px;
+	border-radius: 15px;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+#table_listmsgs_username{
+	font-size:15px;
+	/*font-weight:bold;*/
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#table_listmsgs_msg{
+	font-size:18px;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#table_listmsgs_time{
+	font-size:15px;
+	text-align:right;
+	font-style:italic;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#seconddiv_title{
+	font-size:18px;
+	margin-bottom:5px;
+	margin-left:5px;
+	margin-top:25px;
+}
+
+#group_name_p{
+	font-size:20px;
+	text-align:center;
+	font-weight:bold;
+}
+
+#p_title_availablegroup{
+	font-size:20px;
+	text-align:center;
+	font-weight:bold;
+	margin-top:15px;
+}
+
+#group_creationdate_p{
+	font-size:15px;
+	text-align:left;
+	font-style:italic;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#group_members_p{
+	font-size:17px;
+	text-align:left;
+	font-weight:bold;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#thirddiv_helper{
+	margin-left:15px;
+	margin-right:15px;
+}
+
+#name_administrator{
+	font-size:14px;
+}
+
+#send_msg_button{
+    border: none;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	margin-top:20px;
+    cursor: pointer;
+	border-radius: 10px;
+	outline: none;
+}
+
+#sendmsg_header{
+	margin-top:10px;
+	margin-left:10px;
+	margin-right: 10px;
+}
+
+#add_new_memberid{
+    border: none;
+    padding: 10px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left:10px;
+	margin-top:10px;
+    cursor: pointer;
+	outline: none;
+}
+
+.removing_member{
+	background-color: #cc3300;
+    border: none;
+	border-radius: 15px;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+	outline: none;
+}
+
+.del_group{
+	background-color: #b30000;
+    border: none;
+	border-radius: 15px;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+	outline: none;
+	margin-bottom:25px;
+}
+
+.exit_group{
+	background-color: #cc0000;
+    border: none;
+	border-radius: 15px;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+	outline: none;
+	margin-bottom:25px;
+}
+
+.chathistory{
+	background-color: #db7e13;
+    border: none;
+	border-radius: 15px;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+	outline: none;
+	margin-bottom:25px;
+}
+
+#d_newgrouptable{
+	width:95%;
+}
+
+#d_newgroup{
+	width:95%;
+	height:40px;
+}
+
+#d_friendstogroup{
+	width:95%;
+	height:220px;
+}
+
+#d_whocaninvitemembers{	
+	width:95%;
+	height:40px;
+}
+
+#d_notafriend{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#d_addnewmember_p{
+	margin-bottom:15px;
+	text-align:center;
+}
+
+#d_addnewmember_select{
+	width:75%;
+	height:300px;
+}
+
+#d_addnewmember_notep{
+	margin-bottom:15px;
+	text-align:left;
+}
+
+#d_addnewmember_p{
+	text-align:center;
+}
+
+#d_addnewmember_select{
+	height:40px;
+	width:70%;
+}
+
+#d_addnewmember_notep{
+	color:darkred;
+	text-align:left;
+	margin-top:5px;
+	margin-bottom:15px;
+}
+
+#d_removemember_p{
+	text-align:center;
+}
+
+#loading_chathistorydiv{
+	text-align:center;
+	font-size:13pt;
+	margin-top:20px;
+}
+
+#chistory_table{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size:12pt;
+	text-align: left;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	margin-left:15px;
+	margin-right: 15px;
+}

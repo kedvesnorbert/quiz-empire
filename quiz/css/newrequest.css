@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+/* CSS Dokumentum */
+
+body {
+	background-image: url('../documents/images/newrequestbg.jpg');
+	background:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2)), url('../documents/images/newrequestbg.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+textarea {
+	resize: none !important;
+}
+
+#conatiner_div {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.valid-feedback, .invalid-feedback{
+	font-weight: bold;
+}
+
+#similar_items {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#similarquiz_span {
+	margin-right: 15px;
+}
+
+#letrehoz {
+	float: left;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mylabelnames {
+	font-weight: bold;
+}
+
+#errNewreq{
+	text-align: center;
+	font-weight:bold;
+	color:white;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+#cim1, #points, #nyelv1, #kerdszam1, #valsec1, #showcorr1{
+	font-size:11pt;
+	height:40px;
+	width:600px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#leiras1{
+	font-size:11pt;
+	height:80px;
+	width:600px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#kerdszamkot1, #kerdszamkot2{
+	font-size:11pt;
+	height:40px;
+	width:300px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#cimMegj1, #leirasMegj1{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:11pt;
+	color:black;
+}
+
+#rejtetten1, #szabalyzat_check1{
+	margin-left:5px;
+	margin-right: 5px;
+	width:22px;
+	height:22px;
+}

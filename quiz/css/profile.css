@@ -1,0 +1,482 @@
+body{
+	background-image: url('../documents/images/detailsbg.png');
+	background-attachment: fixed;
+	background-position: center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+
+#main_div {
+	width: 100% !important;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top:0px;
+	margin-bottom:10px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	position:absolute;
+}
+
+#data_div{
+	float:left;
+	width:35%;
+}
+
+#second_div {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	width: 65%;
+	float:left;
+	background-image: url('');
+	background-size: 100% 100%;
+	background-position: center;
+}
+
+#submenu_div {
+	font-size: 15px;
+	width: 100% !important;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	white-space: nowrap;
+	float:left;
+}
+
+#various_div {
+	width: 99% !important;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	
+}
+
+/*data_list*/
+#datalist_card{
+	background-image: url('../documents/images/profiledata.png');
+	background-size: 100% 100%;
+	background-position: center;
+}
+
+#adatok_h4{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+#no_bullets_ul{
+	list-style-type: none;
+	padding-left:25px;
+	margin:0;
+}
+
+.udata_cat{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+.udata_data{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+#udata_dred, #sajatpontokid, #segitsegekid{
+	color:red;
+	font-weight: bold;
+}
+
+#udata_dblue{
+	color:#1e7baa;
+	font-weight: bold;
+}
+
+#udata_dgreen {
+	color: green;
+	font-weight: bold;
+}
+
+/*profil menu*/
+#profile_menu{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size:17px;
+}
+
+#profile_menu a{
+	color:black;
+}
+
+#block_user_id, #enable_user_id{
+	text-align:center;
+	background-color:none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+
+/*send private msg*/
+#cimzett_input {
+	width: 50%;
+	height: 30px;
+}
+
+#message_textarea {
+	width: 90%;
+	height: 200px;
+	resize: none;
+}
+
+/*last played quizlist*/
+#quizplayed_notfound_id {
+	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:50px;
+}
+
+.h3_title_1{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#tableLastKvizId{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 97%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+
+#tableLastKvizId th{
+	height:50px;
+	text-align: center;
+	background-color: lightgray;
+}
+
+#tableLastKvizId td {
+	height: 70px;
+	vertical-align: middle;
+}
+
+#pdf_button {
+	width: 100%;
+	background-color: Transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.hr1{
+	margin-top: 6px;
+	margin-bottom: 6px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+/*All quiz played*/
+#detailQ {
+	background-color: none;
+	display: none;
+}
+
+#tableAllKvizId {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 97%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+
+#tableAllKvizId th {
+	height: 50px;
+	text-align: center;
+	background-color: lightgray;
+	font-size: 15px;
+}
+
+#tableAllKvizId td {
+	height: 70px;
+	vertical-align: middle;
+	font-size: 16px;
+}
+
+#tableAllKvizId a{
+	color:black;
+	text-decoration: underline;
+}
+
+#quiz_attempts_table{
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+	font-size: 15px;
+}
+
+#quiz_attempts_table th{
+	height: 30px;
+	text-align: center;
+	background-color: lightgray;
+	font-size: 15px;
+}
+
+/*quiz in progress*/
+#tableInprocessKvizId{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 97%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+
+#tableInprocessKvizId th {
+	height: 50px;
+	text-align: center;
+	background-color: lightgray;
+	font-size: 15px;
+}
+
+#tableInprocessKvizId td {
+	height: 70px;
+	vertical-align: middle;
+	font-size: 16px;
+}
+
+#tableInprocessKvizId a {
+	color: black;
+	text-decoration: underline;
+}
+
+#detailsOwnPQuiz{
+	padding-left:20px;
+	margin-left:20px;
+}
+
+#title_div {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#questions_table {
+	width: 100%;
+}
+
+#header_qtable {
+	min-height: 20px;
+	height: 20px;
+	font-weight: bold;
+	text-align: center;
+	background-color: lightgray;
+}
+
+#bgnotes_title {
+	text-align: left;
+	color: black;
+	font-style: 10px;
+	font-weight: bold;
+}
+
+#bgnotes {
+	text-align: left;
+	color: red;
+	font-style: 10px;
+	font-style: italic;
+}
+
+#d_addbackground {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font-size: 11pt;
+}
+
+#bgimage {
+	width: 60%;
+	height: 35pt;
+	text-align: center;
+}
+
+/*friens*/
+#baratok_cim {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: left;
+	width: 80%;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#no_friends {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	font-style: italic;
+	margin-top:25px;
+	text-align: center;
+}
+
+.card {
+	background-image: url('../documents/images/friendbg.jpg');
+	background-size: 100% 100%;
+	background-position: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	min-height: 350px;
+	margin-left:20px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.card a{
+	color: black !important;
+}
+
+#friend_name {
+	font-size: 18px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+#friend_points {
+	font-size: 16px;
+	text-align: left;
+}
+
+#friend_rang {
+	font-size: 16px;
+	text-align: left;
+}
+
+#friend_lastv {
+	font-size: 16px;
+	text-align: left;
+	font-style: italic;
+}
+
+/*buy help*/
+#buy_help_div{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left:20pt;
+	margin-right: 20pt;
+}
+
+#pr_cim {
+	font-weight: bold;
+	font-family: 16px;
+	text-align: center;
+	color: black;
+}
+
+#arak_cimid {
+	font-size: 17px;
+	color: black;
+	text-align: left;
+	margin-left: 25px;
+}
+
+#arak_id {
+	font-size: 12pt;
+	text-align: left;
+	margin-left: 25px;
+}
+
+#arak_req {
+	font-style: italic;
+	font-size: 17px;
+	text-align: left;
+	color: black;
+	margin-left: 25px;
+}
+
+#alert_gethelp {
+	text-align: left;
+	font-size: 16px;
+	color: red;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/*profile hiding*/
+#profile_hiding_div {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: 20pt;
+	margin-right: 20pt;
+}
+
+/*buy premium*/
+#buy_premium_div{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: 20pt;
+	margin-right: 20pt;
+}
+
+/*accept private msg*/
+#accept_messages_div{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: 20pt;
+	margin-right: 20pt;
+}
+
+/*delete account*/
+#delete_account_div{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: 20pt;
+	margin-right: 20pt;
+}
+
+#delacc_text {
+	font-style: italic;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	text-align: left;
+	color: black;
+}
+
+#delacc_text2 {
+	font-style: italic;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 16px;
+	text-align: left;
+	color: red;
+	margin-bottom: 30px;
+}
+
+#pw_delaccount {
+	width: 65%;
+	height: 30pt;
+	text-align: center;
+}
+
+/*change pw*/
+#change_pw_div{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: 20pt;
+	margin-right: 20pt;
+}
+
+#pw, #pw1, #pw2{
+	width:500px  !important;
+}
+
+.valid-feedback, .invalid-feedback{
+	width:500px !important;
+}
+
+/*error functions*/
+#errNotFound {
+	text-align: center;
+	font-weight: bold;
+	color: black;
+	font-size: 15px;
+	margin-top: 100px;
+	font-family: Verdana;
+}

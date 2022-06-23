@@ -1,0 +1,147 @@
+@charset "utf-8";
+body {
+	background-image: url('../documents/images/newquestionbg.png');
+	background:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2)), url('../documents/images/newquestionbg.png');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.nav a{
+	color:white !important;
+}
+
+#conatiner_div {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#errNewreq{
+	text-align: center;
+	font-weight:bold;
+	color:black;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+#category, #ans1, #ans2, #ans3, #ans4, #difficulty, #megj{
+	font-size:11pt;
+	height:40px;
+	width:600px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#question{
+	font-size:11pt;
+	height:40px;
+	width:600px;
+	overflow:auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.spanNewQuestion{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:11pt;
+	color:black;
+}
+
+#letrehoz{
+	float: left;
+    cursor: pointer;
+}
+    
+textarea{
+    resize: none !important;
+}
+
+.valid-feedback, .invalid-feedback {
+	font-weight: bold;
+}
+
+.mylabelnames{
+	font-weight: bold;
+}
+
+#valid_quest, #invalid_quest{
+	width:600px;
+}
+
+#no_recorrectingquestion {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	margin-top:60px;
+	margin-bottom: 30px;
+}
+
+/* Float four columns side by side */
+.column {
+	float: left;
+	width: 30%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10pt;
+	margin-bottom:10pt;
+	
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+	margin-top:40pt;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* Style the counter cards */
+.card {
+	text-align: center;
+	background-image: url('../documents/images/cardbg.jpg');
+	background-size: 100% 100%;
+	background-position: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left:30px;
+	padding-right:30px;
+	min-height:400px;
+	cursor: pointer;
+}
+
+.card:hover {
+	text-align: center;
+	background-image: url('../documents/images/cardbg.png');
+	background:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.05)), url('../documents/images/cardbg.jpg');
+	background-size: 100% 100%;
+	background-position: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	min-height: 400px;
+	cursor: pointer;
+}
+
+#correct_btn{
+	width:50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#d_reason_to_correct{
+	color: #e60000;
+	font-weight:bold;
+	margin-top:5px;
+	margin-bottom: 15px;
+	width:100%;
+	text-align: center;
+	
+}
+
