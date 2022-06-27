@@ -35,8 +35,6 @@ class NotificationUtils(context:Context) {
     }
 
     private fun createNotificationChannel() {
-        // Create the NotificationChannel, but only on API 26+ because
-        // the NotificationChannel class is new and not in the support library
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val name = "Channel Name"
             val descriptionText = "Channel Description"
@@ -44,20 +42,14 @@ class NotificationUtils(context:Context) {
             val channel = NotificationChannel(CHANNEL_ID, name, importance).apply {
                 description = descriptionText
             }
-            // Register the channel with the system
             val notifiManager: NotificationManager =
                 mContext.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
             notifiManager.createNotificationChannel(channel)
         }
     }
 
-
     private fun initNotificationBuilder() {
 
-        //val mNotificationManager = mContext.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
-        //val mNotificationId = System.currentTimeMillis()
-
-        // Create an explicit intent for an Activity in your app
         val sampleIntent = Intent(mContext, MainActivity::class.java).apply {
             flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
         }
@@ -70,11 +62,7 @@ class NotificationUtils(context:Context) {
 
         val bitmap = decodeResource(mContext.resources, R.drawable.steamtwo)
         val bitmapLargeIcon = decodeResource(mContext.resources, R.drawable.androidtwo)
-        /***
-         * Notice that the NotificationCompat.Builder constructor requires that you provide a channel ID.
-         * This is required for compatibility with Android 8.0 (API level 26) and higher,
-         * but is ignored by older versions.
-         */
+       
         notificationBuilder = NotificationCompat.Builder(mContext, CHANNEL_ID)
             .setSmallIcon(R.drawable.androidtwo)
             .setContentTitle("QuizBirodalom - Napi belépés")
@@ -88,6 +76,4 @@ class NotificationUtils(context:Context) {
             .setAutoCancel(true)
             .setOngoing(true)
     }
-
-
 }
