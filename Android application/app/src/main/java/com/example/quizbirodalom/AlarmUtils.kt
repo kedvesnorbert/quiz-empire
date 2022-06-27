@@ -14,8 +14,6 @@ class AlarmUtils(context: Context) {
     init {
         alarmMgr = mContext.getSystemService(Context.ALARM_SERVICE) as AlarmManager
         alarmIntent = Intent(mContext, AlarmReceiver::class.java).let { mIntent ->
-            // if you want more than one notification use different requestCode
-            // every notification need different requestCode
             PendingIntent.getBroadcast(mContext, 100, mIntent, 0)
         }
     }
